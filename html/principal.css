@@ -1,0 +1,481 @@
+@charset "utf-8";
+@media (max-width:450px){
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+header{
+   background-color: rgb(0, 0, 0);
+   text-align: center;
+   color: rgb(233, 65, 171);
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    position: fixed;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../Collage/font.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+}
+header h1::before{
+    content:"";
+    display: inline-block;
+    background-image: url("../Collage/1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 7px;
+    height: 20px;
+    width: 20px;
+}
+header h1::after{
+        content:"";
+    display: inline-block;
+    background-image: url("../Collage/2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-left: 7px;
+    height: 20px;
+    width: 20px;
+}
+body{
+    background-color: rgb(233, 65, 171);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+#videos{
+    padding-top: 100px;
+    font-family: 'Playfair Display', serif;
+}
+#videos > .videos video{
+    width: 300px;
+    height: 90%;
+}
+#videos > .videos p{
+    padding-top: 15px;
+}
+#videos > .videos p{
+    font-family: 'Playfair Display', serif;
+}
+.videos a{
+    color:rgb(255, 255, 255);
+    font-size: large;
+    text-decoration: none;
+    background-color: rgb(3, 2, 2);
+    padding: 5px;
+    height: 10px;
+    width: 15px;
+    border: 1px white solid ;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+} 
+.videos a:hover{
+    border: 1px rgb(5, 5, 5) solid ;
+    background-color: rgb(255, 255, 255);
+    color:rgb(1, 1, 1);
+    transition: 0.5s;
+}
+nav > a .jjj::after{
+    content:"";
+    display: inline-block;
+    background-image: url("../videos/1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 7px;
+    height: 17px;
+    width: 17px;
+}
+nav a{
+    color:rgb(255, 255, 255);
+    font-size: large;
+    text-decoration: none;
+    background-color: rgb(3, 2, 2);
+    padding: 5px;
+    height: 10px;
+    width: 15px;
+    border: 1px white solid ;
+    border-radius: 5px;
+}
+nav a:hover{
+    border: 1px rgb(5, 5, 5) solid ;
+    background-color: rgb(255, 255, 255);
+    color:rgb(1, 1, 1);
+    transition: 0.5s;
+}
+nav{
+    margin-bottom: 5px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    padding-top: 8px;
+}
+footer p{
+    color: rgb(233, 65, 171);
+    font-size: small;
+}
+footer a{
+    color:rgb(255, 255, 255);
+    font-size: medium;
+    text-decoration: none;
+}
+footer a:hover{
+    color: gold;
+}
+#videos .videos {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+body.manha{
+    background-color: #87CEEB;
+}
+body.tarde{
+    background-color: #FF8C42;
+}
+body.noite{
+    background-color: rgb(233, 65, 171);
+}
+.ex{
+    color: #87CEEB !important;
+}
+.exdois{
+    color: #FF8C42 !important;
+}
+.extres{
+    color: rgb(233, 65, 171) !important;
+}
+}
+@media (min-width:451px) and (max-width:800px){
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+header{
+   background-color: rgb(0, 0, 0);
+   text-align: center;
+   color: rgb(233, 65, 171);
+    height: 80px;
+    width: 100%;
+    padding-top: 10px;
+    position: fixed;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../Collage/font.ttf') format('truetype');
+    font-weight: 200 1000;
+    font-style: normal;
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+}
+header h1::before{
+    content:"";
+    display: inline-block;
+    background-image: url("../Collage/1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 7px;
+    height: 30px;
+    width: 30px;
+}
+header h1::after{
+        content:"";
+    display: inline-block;
+    background-image: url("../Collage/2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-left: 7px;
+    height: 30px;
+    width: 30px;
+}
+body{
+    background-color: rgb(233, 65, 171);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+#videos{
+    padding-top: 100px;
+    font-family: 'Playfair Display', serif;
+}
+#videos > .videos video{
+    width: 430px;
+    height: 90%;
+}
+#videos > .videos p{
+    padding-top: 15px;
+}
+#videos > .videos p{
+    font-family: 'Playfair Display', serif;
+}
+.videos a{
+    color:rgb(255, 255, 255);
+    font-size: large;
+    text-decoration: none;
+    background-color: rgb(3, 2, 2);
+    padding: 5px;
+    height: 10px;
+    width: 15px;
+    border: 1px white solid ;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+} 
+.videos a:hover{
+    border: 1px rgb(5, 5, 5) solid ;
+    background-color: rgb(255, 255, 255);
+    color:rgb(1, 1, 1);
+    transition: 0.5s;
+}
+nav > a .jjj::after{
+    content:"";
+    display: inline-block;
+    background-image: url("../videos/1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 7px;
+    height: 20px;
+    width: 20px;
+}
+nav a{
+    color:rgb(255, 255, 255);
+    font-size: large;
+    text-decoration: none;
+    background-color: rgb(3, 2, 2);
+    padding: 5px;
+    height: 10px;
+    width: 15px;
+    border: 1px white solid ;
+    border-radius: 5px;
+}
+nav a:hover{
+    border: 1px rgb(5, 5, 5) solid ;
+    background-color: rgb(255, 255, 255);
+    color:rgb(1, 1, 1);
+    transition: 0.5s;
+}
+nav{
+    margin-bottom: 5px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    padding-top: 8px;
+}
+footer p{
+    color: rgb(233, 65, 171);
+    font-size: 16px;
+}
+footer a{
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none;
+}
+footer a:hover{
+    color: gold;
+}
+#videos .videos {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+body.manha{
+    background-color: #87CEEB;
+}
+body.tarde{
+    background-color: #FF8C42;
+}
+body.noite{
+    background-color: rgb(233, 65, 171);
+}
+.ex{
+    color: #87CEEB !important;
+}
+.exdois{
+    color: #FF8C42 !important;
+}
+.extres{
+    color: rgb(233, 65, 171) !important;
+}
+}
+@media (min-width:801px){
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+header{
+   background-color: rgb(0, 0, 0);
+   text-align: center;
+   color: rgb(233, 65, 171);
+    height: 80px;
+    width: 100%;
+    padding-top: 10px;
+    position: fixed;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../Collage/font.ttf') format('truetype');
+    font-weight: 200 1000;
+    font-style: normal;
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+}
+header h1::before{
+    content:"";
+    display: inline-block;
+    background-image: url("../Collage/1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 7px;
+    height: 40px;
+    width: 40px;
+}
+header h1::after{
+        content:"";
+    display: inline-block;
+    background-image: url("../Collage/2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-left: 7px;
+    height: 40px;
+    width: 40px;
+}
+body{
+    background-color: rgb(233, 65, 171);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+#videos{
+    padding-top: 100px;
+    font-family: 'Playfair Display', serif;
+}
+#videos > .videos video{
+    width: 650px;
+    height: 90%;
+}
+#videos > .videos p{
+    padding-top: 15px;
+}
+#videos > .videos p{
+    font-family: 'Playfair Display', serif;
+}
+.videos a{
+    color:rgb(255, 255, 255);
+    font-size: larger;
+    text-decoration: none;
+    background-color: rgb(3, 2, 2);
+    padding: 5px;
+    height: 10px;
+    width: 15px;
+    border: 1px white solid ;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+} 
+.videos a:hover{
+    border: 1px rgb(5, 5, 5) solid ;
+    background-color: rgb(255, 255, 255);
+    color:rgb(1, 1, 1);
+    transition: 0.5s;
+}
+nav > a .jjj::after{
+    content:"";
+    display: inline-block;
+    background-image: url("../videos/1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 7px;
+    height: 20px;
+    width: 20px;
+}
+nav a{
+    color:rgb(255, 255, 255);
+    font-size: larger;
+    text-decoration: none;
+    background-color: rgb(3, 2, 2);
+    padding: 5px;
+    height: 10px;
+    width: 15px;
+    border: 1px white solid ;
+    border-radius: 5px;
+}
+nav a:hover{
+    border: 1px rgb(5, 5, 5) solid ;
+    background-color: rgb(255, 255, 255);
+    color:rgb(1, 1, 1);
+    transition: 0.5s;
+}
+nav{
+    margin-bottom: 5px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    padding-top: 8px;
+}
+footer p{
+    color: rgb(233, 65, 171);
+    font-size: 19px;
+}
+footer a{
+    color:rgb(255, 255, 255);
+    font-size: 19px;
+    text-decoration: none;
+}
+footer a:hover{
+    color: gold;
+}
+#videos .videos {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+body.manha{
+    background-color: #87CEEB;
+}
+body.tarde{
+    background-color: #FF8C42;
+}
+body.noite{
+    background-color: rgb(233, 65, 171);
+}
+.ex{
+    color: #87CEEB !important;
+}
+.exdois{
+    color: #FF8C42 !important;
+}
+.extres{
+    color: rgb(233, 65, 171) !important;
+}
+} 
